@@ -75,6 +75,8 @@ type AppError = {
   message: string;
 };
 
+export function   undefinedFunction(){}
+
 export default function Home() {
   const initialState: number = 'Vienna';
   const [queryDraft, setQueryDraft] = useState(initialState);
